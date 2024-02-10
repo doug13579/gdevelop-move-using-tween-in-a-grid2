@@ -736,34 +736,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "player",
-                    "newX",
-                    "!=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "player",
-                    "newY",
-                    "!=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Not"
                   },
                   "parameters": [],
